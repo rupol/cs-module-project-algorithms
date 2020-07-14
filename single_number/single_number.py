@@ -19,7 +19,7 @@ def single_number(arr):
         if arr[i] != arr[i + 1]:
             return arr[i]
         # after each pair, i ++ (skip)
-        i = i + 2
+        i += 2
 
 
 if __name__ == '__main__':
